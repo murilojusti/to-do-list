@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Signika:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Signika", sans-serif;
+    outline: none;
+}
+
+:root {
+    --color1: #493157;
+    --color2: #9276B0;
+    --color3: #C26A93;
+    --color4: #C75769;
+    --color5: #E8708F;
+    --color6: #FA8E89;
+    --color7: #FFFFFF;
+}
+/*------------------------------------------------*/
+
+body{
+    background: var(--color1);
+}
+.box{
+    background: var(--color2);
+    padding: 20px;
+    width: 500px;
+    border-radius: 15px;
+    margin: 100px auto auto;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: var(--color7);
+}
+
+.creditos{
+    color: var(--color7);
+    position: absolute;
+    bottom: 0%;
+}
+
+li img{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.input-tarefa{
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.button-tarefa{
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background: var(--color1);
+    height: 40px;
+    width: 60px;
+    color: var(--color7);
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0 15px;
+    float: right;
+}
+
+.button-tarefa:hover{
+    color: var(--color6);
+    opacity: 0.8;
+}
+
+.button-tarefa:active{
+    color: var(--color6);
+    opacity: 0.6;
+}
+
+.list-tarefa{
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.tarefa{
+    background: var(--color7);
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.done{
+    background: var(--color3);
+    text-decoration: line-through;
+}
